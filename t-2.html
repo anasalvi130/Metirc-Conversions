@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Created By Five Partners -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Conversion | DAAAW Partners </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <div class="scale">
+        <img src="images/b-scale.png" alt="">
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#" style="color: black;">Metric Conver<span>sion.</span> <br> <h6 style="font-size: 16px; font-weight: 500;"> D &nbsp;&nbsp; A &nbsp;&nbsp; A &nbsp;&nbsp; A &nbsp;&nbsp; W &nbsp;&nbsp; | <span>PARTNERS</span>  </h6></a></div>
+
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn" style="color: black; ">Home</a></li>
+                <li><a href="index.html #services" class="menu-btn" style="color: black; ">Services</a></li>
+                <li><a href="about.html" class="menu-btn" style="color: black;" >About Us</a></li>
+                <li><a href="contact.html" class="menu-btn" style="color: black;">Contact Us</a></li>
+                <li><a href="five-partners.html" class="menu-btn" style="color: black; ">Five Partners</a></li>
+                <li><a href="faqs.html" class="menu-btn"  style="font-size: 22px; font-weight: bold; color: black;">| FAQS</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <style>
+        .navbar.sticky{
+            background-color: darkcyan;
+        }
+    </style>
+    <section class="home" id="home" style="background: rgb(228, 227, 227); display: flex; justify-content: center; height: 100%;">
+       <div class="con">
+        <div class="container-44" style="margin: auto;">
+           <div class="heading-con">
+               <h1>Celsius to Fahrenheit (°C to °F)</h1>
+              <p>1°C= 33.8°F</p> 
+           </div>
+           <div class="inp" style="width: 80rem;">
+            <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+              &nbsp; &nbsp; <i class="fal fa-long-arrow-right" style="font-size: 2em;"></i>
+              <span id="outputFahrenheit">--</span>
+           </div>
+           </div> <br><br><br>
+           <div class="description">
+            <h1 style="color: rgb(2, 40, 75); margin-top: 80px;">Why is converting Celsius to Fahrenheit so difficult?</h1>
+            <p style="width: 70%; display: inline-block; margin-top: 20px; margin-bottom: 10%; text-align: justify; line-height: 1.3em;">Because both Celsius and Fahrenheit scales are offset– ie neither are defined as starting at zero. On top of that, for every additional unit of heat energy the Celsius and Fahrenheit scales add a different additional value. Because of this setup, it’s impossible to say that doubling the °C or °F value doubles the amount of heat energy, so it’s difficult to get an intuitive grasp of how much energy 1 degree Fahrenheit or Celsius actually is.
+                <br><br>
+                The only temperature system that works intuitively – where a doubling of value doubles the energy – is Kelvin, where absolute zero is 0, body temperature is 310.15K and boiling water is 373.15K. The problem with the Kelvin scale is that the zero end of the scale is too far from human experience to be useful – as anyone who set their room temperature to 20.5 Kelvin would attest, if they lived long enough.</p>
+           <h1>Celsius to Fahrenheit formula</h1>
+           <div class="formula">
+               <p>°F =</p>
+               <h4>°C * 1.8000</h4>
+               <hr>
+               <h4>+ 32.00</h4>
+           </div> <br><br><br><br><br>
+           <h1 style="color: rgb(2, 40, 75);">Celsius and Fahrenheit definition</h1>
+           <p style="width: 70%; display: inline-block; margin-top: 20px; text-align: justify; line-height: 1.3em; margin-bottom: 10%;">The Celsius temperature range was originally defined by setting zero as the temperature at which water froze. Zero degrees C was later redefined as the temperature at which ice melts. The other point at which Celsius was set – 100 degrees Celsius – was defined as the boiling point of water.
+            <br><br>
+            Since its definition, the Celsius scale has been redefined to peg it to Kelvin. Zero degrees Celsius is now defined as 273.15K. As one degree Celsius is equal to one Kelvin, boiling point of water is equal to 273.15 + 100 = 373.15 Kelvin.</p>
+           
+           </div>
+       </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer style="margin-top: auto; background-color: darkcyan;">
+        <span>Created By <a href="five-partners.html" style="color: black; font-weight: 500;">Five Partners</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+    <script src="java/script.js"></script>
+    <script>
+        function temperatureConverter(valNum) {
+          valNum = parseFloat(valNum);
+          document.getElementById("outputFahrenheit").innerHTML=(valNum*1.8)+32;
+        }
+        </script>
+</body>
+</html>

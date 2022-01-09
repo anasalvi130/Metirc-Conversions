@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- Created By Five Partners -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Conversion | DAAAW Partners </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <div class="scale">
+        <img src="images/b-scale.png" alt="">
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#" style="color: black;">Metric Conver<span>sion.</span> <br> <h6 style="font-size: 16px; font-weight: 500;"> D &nbsp;&nbsp; A &nbsp;&nbsp; A &nbsp;&nbsp; A &nbsp;&nbsp; W &nbsp;&nbsp; | <span>PARTNERS</span>  </h6></a></div>
+
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn" style="color: black; ">Home</a></li>
+                <li><a href="index.html #services" class="menu-btn" style="color: black; ">Services</a></li>
+                <li><a href="about.html" class="menu-btn" style="color: black;" >About Us</a></li>
+                <li><a href="contact.html" class="menu-btn" style="color: black;">Contact Us</a></li>
+                <li><a href="five-partners.html" class="menu-btn" style="color: black; ">Five Partners</a></li>
+                <li><a href="faqs.html" class="menu-btn"  style="font-size: 22px; font-weight: bold; color: black;">| FAQS</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <style>
+        .navbar.sticky{
+            background-color: darkcyan;
+        }
+    </style>
+    <section class="home" id="home" style="background: rgb(228, 227, 227); display: flex; justify-content: center; height: 100%;">
+       <div class="con">
+           <div class="container-44" style="margin: auto;">
+           <div class="heading-con">
+               <h1>Chose Any Currency "You must be Online"</h1>
+               <div class="rate" id="rate">--</div>
+           </div>
+           <div class="inp">
+            <select id="currency-one" style="padding: 15px; margin-right: -.2rem; height: 3.1rem; font-size: 1.2rem;">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD" selected>USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+              </select>
+            <input id="amount-one" type="number" placeholder="0" value="1" style="border: none; height: 3rem; width: 60%;">
+            <div class="swap-rate-container">
+                <button class="btn" id="swap">
+                  Swap ↕️
+                </button>
+              </div>
+              <input type="number" class="output" id="amount-two" placeholder="0" />
+              <select id="currency-two" style="padding: 15px; margin-right: -.2rem; height: 3rem; font-size: 1.2rem; border: none;">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD">USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+              </select>
+            </div>
+           </div> <br><br><br>
+           <div class="description">
+           <div class="formula">
+           </div> <br><br><br><br><br>
+           <h1 style="color: rgb(2, 40, 75);">Currency</h1>
+           <p style="width: 70%; display: inline-block; margin-top: 20px; text-align: justify; line-height: 1.3em; margin-bottom: 10%;">A currency in the most specific sense is money in any form when in use or circulation as a medium of exchange, especially circulating banknotes and coins. A more general definition is that a currency is a system of money (monetary units) in common use, especially for people in a nation. <br><br> The first region of the world to use an industrial facility to manufacture coins that could be used as currency was in Europe, in the region called Lydia (modern-day Western Turkey), in approximately 600 B.C. The Chinese were the first to devise a system of paper money, in approximately 770 B.C.</p>
+           <h1 style="color: rgb(2, 40, 75); margin-top: 80px; display: none;">Meters</h1>
+           <p style="width: 70%; display: inline-block; margin-top: 20px; margin-bottom: 10%; text-align: justify; line-height: 1.3em; display: none;">The metre is a unit of length in the metric system, and is the base unit of length in the International System of Units (SI).
+<br>
+            As the base unit of length in the SI and other m.k.s. systems (based around metres, kilograms and seconds) the metre is used to help derive other units of measurement such as the newton, for force.</p>
+           </div>
+       </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer style="margin-top: auto; background-color: darkcyan;">
+        <span>Created By <a href="five-partners.html" style="color: black; font-weight: 500;">Five Partners</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+    <script src="java/currency.js"></script>
+    <script src="java/script.js"></script>
+</body>
+</html>
